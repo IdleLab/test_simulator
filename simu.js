@@ -21,6 +21,7 @@ function getOne(i,j){
         
     else
         rand=j;
+        rand=0;
     if(rand<0.01){ //5,servant
         log[i]=0;
         if(rand<0.0065){    //up
